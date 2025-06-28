@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwadamilare Obalana Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-slate-900/70 backdrop-blur-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
+            <a href="#home" class="text-xl font-extrabold text-white tracking-tight">
+                bot<span class="text-indigo-400">_</span>
+            </a>
+            <div class="hidden md:flex space-x-6 lg:space-x-8 items-center text-sm font-medium">
+                <a href="#about" class="text-slate-300 hover:text-indigo-400 transition-colors">About</a>
+                <a href="#gallery" class="text-slate-300 hover:text-indigo-400 transition-colors">Gallery</a>
+                <a href="#skills" class="text-slate-300 hover:text-indigo-400 transition-colors">Skills</a>
+                <a href="#contact"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-md transition-colors">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-slate-300 hover:text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu (for tablet and mobile views) -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="nav-link block py-3 px-4 text-sm text-slate-300 hover:bg-slate-800">About</a>
+            <a href="#gallery" class="nav-link block py-3 px-4 text-sm text-slate-300 hover:bg-slate-800">Gallery</a>
+            <a href="#skills" class="nav-link block py-3 px-4 text-sm text-slate-300 hover:bg-slate-800">Skills</a>
+            <a href="#contact" class="nav-link block py-3 px-4 text-sm text-slate-300 hover:bg-slate-800">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Homepage / Hero Section -->
+        <section id="home" class="text-center py-20 md:py-32 lg:py-40">
+            <div class="animated-header absolute top-0 left-0 right-0 h-2"></div>
+            <h1
+                class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight tracking-tighter">
+                Visual Storyteller &<br class="hidden sm:block" /> Digital Artisan
+            </h1>
+            <p class="mt-4 max-w-lg md:max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-slate-400">
+                Crafting compelling narratives through game development, 3D animation, and interactive design.
+            </p>
+            <div class="mt-8 flex justify-center gap-4">
+                <a href="#gallery"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-transform hover:scale-105">Explore
+                    My Work</a>
+                <a href="#contact"
+                    class="bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 px-6 rounded-lg transition-transform hover:scale-105">Get
+                    In Touch</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 md:py-24">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12 items-center">
+                <div class="md:col-span-2">
+                    <img src="img/two.jpg" alt="Portrait"
+                        class="rounded-lg shadow-2xl mx-auto"
+                        style="box-shadow: 0 0 60px -15px rgba(79, 70, 229, 0.3); width: 200px;">
+                </div>
+                <div class="md:col-span-3 text-center md:text-left">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">I build worlds.</h2>
+                    <p class="text-slate-400 text-lg mb-4">
+                        I'm a multidisciplinary creator who thrives at the intersection of art and code. My passion is
+                        visual storytelling, whether that means sculpting a memorable character, programming an engaging
+                        game mechanic, or editing a cinematic trailer that captures the imagination.
+                    </p>
+                    <p class="text-slate-400">
+                        From the first polygon to the final line of code, I love the process of bringing digital
+                        experiences to life.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Gallery Section -->
+        <section id="gallery" class="py-16 md:py-24">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white">Project Gallery</h2>
+                <p class="text-slate-400 mt-2">A selection of my work across different disciplines.</p>
+                <!-- Project Categories / Filters (for Tablet/Desktop views) -->
+                <div class="mt-6 flex flex-wrap justify-center gap-2 sm:gap-3">
+                    <button
+                        class="bg-slate-700 text-white text-sm font-medium py-2 px-4 rounded-full hover:bg-indigo-600 transition-colors">All</button>
+                    <button
+                        class="bg-slate-800 text-slate-300 text-sm font-medium py-2 px-4 rounded-full hover:bg-indigo-600 hover:text-white transition-colors">Game
+                        Dev</button>
+                    <button
+                        class="bg-slate-800 text-slate-300 text-sm font-medium py-2 px-4 rounded-full hover:bg-indigo-600 hover:text-white transition-colors">3D
+                        & Animation</button>
+                    <button
+                        class="bg-slate-800 text-slate-300 text-sm font-medium py-2 px-4 rounded-full hover:bg-indigo-600 hover:text-white transition-colors">Web
+                        Dev</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Cards -->
+                <div
+                    class="group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20">
+                    <div class="relative"><img src="https://placehold.co/600x400/1e293b/94a3b8?text=Game+Dev+Project"
+                            alt="Project Thumbnail"
+                            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
+                        <div
+                            class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-indigo-400 font-medium">Game Development</p>
+                        <h3 class="text-lg font-bold text-white mt-1">Project: "Cyber Runner"</h3>
+                    </div>
+                </div>
+                <div
+                    class="group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20">
+                    <div class="relative"><img src="https://placehold.co/600x400/1e293b/94a3b8?text=3D+Character+Model"
+                            alt="Project Thumbnail"
+                            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
+                        <div
+                            class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
+                            <svg class="w-16 h-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.036 12.322a1.012 1.012 0 010-.639l4.43-4.43a1.012 1.012 0 011.431 0l4.43 4.43a1.012 1.012 0 010 .639l-4.43 4.43a1.012 1.012 0 01-1.431 0l-4.43-4.43z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-pink-400 font-medium">3D Character Art</p>
+                        <h3 class="text-lg font-bold text-white mt-1">Character: "The Alchemist"</h3>
+                    </div>
+                </div>
+                <div
+                    class="group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20">
+                    <div class="relative"><img src="https://placehold.co/600x400/1e293b/94a3b8?text=React.js+App+UI"
+                            alt="Project Thumbnail"
+                            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
+                        <div
+                            class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
+                            <svg class="w-16 h-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-4.5 0V6.75A2.25 2.25 0 0115.75 4.5h1.5a2.25 2.25 0 012.25 2.25v1.5m-4.5 0h4.5m-4.5 0l4.5-4.5">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-sky-400 font-medium">Web Development</p>
+                        <h3 class="text-lg font-bold text-white mt-1">App: "Project Planner"</h3>
+                    </div>
+                </div>
+                <div
+                    class="group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20">
+                    <div class="relative"><img src="https://placehold.co/600x400/1e293b/94a3b8?text=Animation+Reel"
+                            alt="Project Thumbnail"
+                            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
+                        <div
+                            class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.667 3.003h11.34c.77 0 1.333.664 1.333 1.444v8.11c0 .78-.563 1.445-1.333 1.445H2.667C1.9 14 1.333 13.355 1.333 12.556V4.447c0-.78.567-1.444 1.334-1.444zM1.333 5.61v6.777c0 .25.2.45.45.45h12.444c.25 0 .45-.2.45-.45V5.61c0-.25-.2-.45-.45-.45H1.783a.45.45 0 00-.45.45z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-teal-400 font-medium">Video Editing & Animation</p>
+                        <h3 class="text-lg font-bold text-white mt-1">Cinematic Trailer</h3>
+                    </div>
+                </div>
+                <div
+                    class="group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20">
+                    <div class="relative"><img src="https://placehold.co/600x400/1e293b/94a3b8?text=Character+Rigging"
+                            alt="Project Thumbnail"
+                            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
+                        <div
+                            class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
+                            <svg class="w-16 h-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.092 1.21-.138 2.43-.138 3.662a48.678 48.678 0 000 7.324 4.006 4.006 0 003.7 3.7 48.679 48.679 0 007.324 0 4.006 4.006 0 003.7-3.7c.092-1.21.138-2.43.138-3.662z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-amber-400 font-medium">Technical Art</p>
+                        <h3 class="text-lg font-bold text-white mt-1">Advanced Character Rig</h3>
+                    </div>
+                </div>
+                <div
+                    class="group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20">
+                    <div class="relative"><img src="https://placehold.co/600x400/1e293b/94a3b8?text=3D+Environment"
+                            alt="Project Thumbnail"
+                            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
+                        <div
+                            class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
+                            <svg class="w-16 h-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.158 0a.002.002 0 01-.002.002.002.002 0 01-.002-.002.002.002 0 01.002-.002.002.002 0 01.002.002z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-sm text-lime-400 font-medium">3D Environment Art</p>
+                        <h3 class="text-lg font-bold text-white mt-1">"Forest Temple" Scene</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16 md:py-24 bg-slate-900/50 rounded-lg">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white">My Toolkit</h2>
+                <p class="text-slate-400 mt-2">Technologies and software I use to bring ideas to life.</p>
+            </div>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-3">Game Development</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><span class="text-indigo-400 mr-2">&#8227;</span>Unity Engine & C#</li>
+                        <li><span class="text-indigo-400 mr-2">&#8227;</span>Unreal Engine & Blueprints</li>
+                        <li><span class="text-indigo-400 mr-2">&#8227;</span>Game Design & Prototyping</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-3">3D &amp; Animation</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><span class="text-pink-400 mr-2">&#8227;</span>Blender (Modeling, Sculpting)</li>
+                        <li><span class="text-pink-400 mr-2">&#8227;</span>Character Rigging & Animation</li>
+                        <li><span class="text-pink-400 mr-2">&#8227;</span>PBR Texturing (Substance)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-3">Web &amp; Post-Production</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><span class="text-sky-400 mr-2">&#8227;</span>React.js & JavaScript/TypeScript</li>
+                        <li><span class="text-sky-400 mr-2">&#8227;</span>Video Editing (Premiere Pro)</li>
+                        <li><span class="text-sky-400 mr-2">&#8227;</span>Motion Graphics (After Effects)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 md:py-24">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white">Let's Build Something Great</h2>
+                <p class="text-slate-400 mt-3 mb-8">Have a project in mind or just want to say hello? Drop me a line!
+                </p>
+            </div>
+            <form action="https://formspree.io/f/xgvyrpbo" method="POST" class="max-w-xl mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" name="name" id="name" required
+                            class="w-full bg-slate-800 border border-slate-700 rounded-md py-3 px-4 text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+                            placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" name="email" id="email" required
+                            class="w-full bg-slate-800 border border-slate-700 rounded-md py-3 px-4 text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+                            placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label for="message" class="sr-only">Message</label>
+                    <textarea name="message" id="message" rows="5" required
+                        class="w-full bg-slate-800 border border-slate-700 rounded-md py-3 px-4 text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+                        placeholder="Your Message"></textarea>
+                </div>
+                <div class="mt-6 text-center">
+                    <button type="submit"
+                        class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg w-full sm:w-auto transition-colors">Send
+                        Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 mt-16">
+        <div class="container mx-auto px-6 py-6 text-center text-slate-500 text-sm">
+            <p>&copy; 2025 bot_ All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
