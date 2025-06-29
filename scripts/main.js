@@ -1,5 +1,14 @@
 // Main script to handle dynamic project rendering and filtering
 document.addEventListener('DOMContentLoaded', () => {
+    let iconsData = {};
+    fetch('./json/icon.json')
+        .then(response => response.json())
+        .then(data => {
+            iconsData = data;
+            // renderProjects('All');
+        });
+
+        
     let projectsData = [];
     fetch('./json/projects.json')
         .then(response => response.json())
@@ -9,12 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderProjects('All');
         });
 
-    let iconsData = {};
-    fetch('./json/icon.json')
-        .then(response => response.json())
-        .then(data => {
-            iconsData = data;
-        });
 
     const galleryGrid = document.getElementById('project-gallery-grid');
     const filterButtonsContainer = document.getElementById('filter-buttons');
@@ -32,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Create and append project cards
         filteredProjects.forEach(project => {
             const iconSvg = iconsData[project.iconKey] || ''; // Get the icon SVG
+            // console.info(iconSvg);
             
             const projectLink = document.createElement('a');
             projectLink.href = project.projectUrl;
