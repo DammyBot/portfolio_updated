@@ -1,62 +1,47 @@
 [
     {
-        "id": 1,
-        "title": "Project: 'Cyber Runner'",
+        "title": "Project: 'Flappy Bird Clone'",
         "category": "Game Dev",
         "categoryColor": "text-indigo-400",
-        "description": "An endless runner game built in Unity, featuring procedural level generation and character rigging.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Game+Dev+Project",
+        "description": "Flappy Bird clone built with Unreal engine, featuring custom graphics and sound effects.",
+        "imageUrl": "./img/flappy-bird.gif",
         "iconKey": "play",
-        "projectUrl": "#"
+        "projectUrl": "https://www.instagram.com/p/DHRFwpKMKCM/"
     },
     {
-        "id": 2,
-        "title": "Character: 'The Alchemist'",
+        "title": "Project: 'Locus Blaster'",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Spaceship game prototype created in Unreal Engine, showcasing basic mechanics and level design.",
+        "imageUrl": "./img/locus-blaster.gif",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1Bmovt7CJzmn2RoJzFpdOF1fMfCXom4I2/view?usp=drive_link"
+    },
+    {
+        "title": "3D Model: 'Headphones'",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
-        "description": "A high-poly character model sculpted, textured, and rigged for animation in Blender.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=3D+Character+Model",
+        "description": "Headphones model created in Blender, showcasing advanced texturing and lighting techniques.",
+        "imageUrl": "./img/headphone.png",
         "iconKey": "cube",
-        "projectUrl": "#"
+        "projectUrl": "https://drive.google.com/file/d/1mBj4-wLPeQP-ST8dB7r6cU1skRroFhPc/view?usp=drive_link"
     },
     {
-        "id": 3,
-        "title": "Brand Promo Video",
-        "category": "Video Editing",
-        "categoryColor": "text-teal-400",
-        "description": "A high-energy promotional video edited for a product launch, featuring motion graphics.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Promo+Video",
-        "iconKey": "film",
-        "projectUrl": "#"
-    },
-    {
-        "id": 4,
-        "title": "Cinematic Trailer",
-        "category": "Video Editing",
-        "categoryColor": "text-teal-400",
-        "description": "A short, cinematic trailer edited in Premiere Pro with motion graphics from After Effects.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Animation+Reel",
-        "iconKey": "film",
-        "projectUrl": "#"
-    },
-    {
-        "id": 5,
-        "title": "Advanced Character Rig",
+        "title": "3D Model: 'Watch'",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
-        "description": "A complex character rig with custom controls and constraints for expressive animation.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Character+Rigging",
-        "iconKey": "camera",
-        "projectUrl": "#"
+        "description": "Watch model created in Blender, showcasing advanced texturing and lighting techniques.",
+        "imageUrl": "./img/watch.png",
+        "iconKey": "cube",
+        "projectUrl": "https://drive.google.com/file/d/1BkSqG_tHTVODzrIBUNH0s_MpUSx6hdAy/view?usp=drive_link"
     },
     {
-        "id": 6,
-        "title": "'Forest Temple' Scene",
-        "category": "3D & Animation",
-        "categoryColor": "text-pink-400",
-        "description": "An environment art piece created in Unreal Engine 5, utilizing Nanite and Lumen.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=3D+Environment",
-        "iconKey": "image",
-        "projectUrl": "#"
+        "title": "Anime AMV: 'Muhichiro",
+        "category": "Video Editing",
+        "categoryColor": "text-teal-400",
+        "description": "High impact anime music video featuring dynamic editing and visual effects.",
+        "imageUrl": "./img/collab_TBK.gif",
+        "iconKey": "film",
+        "projectUrl": "https://www.instagram.com/p/C7mDRXAtrVr/"
     }
 ]
