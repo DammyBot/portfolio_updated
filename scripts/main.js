@@ -33,9 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
         filteredProjects.forEach(project => {
             const iconSvg = iconsData[project.iconKey] || ''; // Get the icon SVG
             
-            const projectCard = document.createElement('div');
-            projectCard.className = 'group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20';
-            projectCard.innerHTML = `
+            const projectLink = document.createElement('a');
+            projectLink.href = project.projectUrl;
+            projectLink.target = '_blank'; // Open in new tab
+            projectLink.rel = 'noopener noreferrer';
+            projectLink.className = 'group bg-slate-800 rounded-lg overflow-hidden project-card transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/20 block';
+            
+            projectLink.innerHTML = `
                 <div class="relative">
                     <img src="${project.imageUrl}" alt="${project.title}" class="w-full h-56 object-cover transition-transform duration-300 ease-in-out">
                     <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
@@ -47,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3 class="text-lg font-bold text-white mt-1">${project.title}</h3>
                 </div>
             `;
-            galleryGrid.appendChild(projectCard);
+            galleryGrid.appendChild(projectLink);
         });
     };
 

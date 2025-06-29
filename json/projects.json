@@ -6,7 +6,8 @@
         "categoryColor": "text-indigo-400",
         "description": "An endless runner game built in Unity, featuring procedural level generation and character rigging.",
         "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Game+Dev+Project",
-        "iconKey": "play"
+        "iconKey": "play",
+        "projectUrl": "#"
     },
     {
         "id": 2,
@@ -15,25 +16,28 @@
         "categoryColor": "text-pink-400",
         "description": "A high-poly character model sculpted, textured, and rigged for animation in Blender.",
         "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=3D+Character+Model",
-        "iconKey": "cube"
+        "iconKey": "cube",
+        "projectUrl": "#"
     },
     {
         "id": 3,
-        "title": "App: 'Project Planner'",
-        "category": "Web Dev",
-        "categoryColor": "text-sky-400",
-        "description": "A task management dashboard built with React.js, featuring a modern UI and real-time updates.",
-        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=React.js+App+UI",
-        "iconKey": "link"
+        "title": "Brand Promo Video",
+        "category": "Video Editing",
+        "categoryColor": "text-teal-400",
+        "description": "A high-energy promotional video edited for a product launch, featuring motion graphics.",
+        "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Promo+Video",
+        "iconKey": "film",
+        "projectUrl": "#"
     },
     {
         "id": 4,
         "title": "Cinematic Trailer",
-        "category": "3D & Animation",
-        "categoryColor": "text-pink-400",
+        "category": "Video Editing",
+        "categoryColor": "text-teal-400",
         "description": "A short, cinematic trailer edited in Premiere Pro with motion graphics from After Effects.",
         "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Animation+Reel",
-        "iconKey": "film"
+        "iconKey": "film",
+        "projectUrl": "#"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "categoryColor": "text-pink-400",
         "description": "A complex character rig with custom controls and constraints for expressive animation.",
         "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=Character+Rigging",
-        "iconKey": "camera"
+        "iconKey": "camera",
+        "projectUrl": "#"
     },
     {
         "id": 6,
@@ -51,6 +56,7 @@
         "categoryColor": "text-pink-400",
         "description": "An environment art piece created in Unreal Engine 5, utilizing Nanite and Lumen.",
         "imageUrl": "https://placehold.co/600x400/1e293b/94a3b8?text=3D+Environment",
-        "iconKey": "image"
+        "iconKey": "image",
+        "projectUrl": "#"
     }
 ]
