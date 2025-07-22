@@ -1,12 +1,12 @@
 [
     {
-        "title": "Project: 'Flappy Bird Clone'",
-        "category": "Game Dev",
-        "categoryColor": "text-indigo-400",
-        "description": "Flappy Bird clone built with Unreal engine, featuring custom graphics and sound effects.",
-        "imageUrl": "./img/flappy-bird.gif",
+        "title": "Animation: AURUM Styles Teaser",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "AURUM Styles teaser animation showcasing design aesthetic.",
+        "imageUrl": "./img/aurum.gif",
         "iconKey": "play",
-        "projectUrl": "https://www.instagram.com/p/DHRFwpKMKCM/"
+        "projectUrl": "https://drive.google.com/file/d/1d7kZOIlCUfMiTrWlUXTfU4OUw9z4T4nC/view?usp=drive_link"
     },
     {
         "title": "Project: 'Locus Blaster'",
@@ -16,6 +16,15 @@
         "imageUrl": "./img/locus-blaster.gif",
         "iconKey": "play",
         "projectUrl": "https://drive.google.com/file/d/1Bmovt7CJzmn2RoJzFpdOF1fMfCXom4I2/view?usp=drive_link"
+    },
+    {
+        "title": "Project: 'Flappy Bird Clone'",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Flappy Bird clone built with Unreal engine, featuring custom graphics and sound effects.",
+        "imageUrl": "./img/flappy-bird.gif",
+        "iconKey": "play",
+        "projectUrl": "https://www.instagram.com/p/DHRFwpKMKCM/"
     },
     {
         "title": "3D Model: 'Headphones'",
@@ -34,14 +43,5 @@
         "imageUrl": "./img/watch.png",
         "iconKey": "cube",
         "projectUrl": "https://drive.google.com/file/d/1BkSqG_tHTVODzrIBUNH0s_MpUSx6hdAy/view?usp=drive_link"
-    },
-    {
-        "title": "Anime AMV: 'Muhichiro",
-        "category": "Video Editing",
-        "categoryColor": "text-teal-400",
-        "description": "High impact anime music video featuring dynamic editing and visual effects.",
-        "imageUrl": "./img/collab_TBK.gif",
-        "iconKey": "film",
-        "projectUrl": "https://www.instagram.com/p/C7mDRXAtrVr/"
     }
 ]
