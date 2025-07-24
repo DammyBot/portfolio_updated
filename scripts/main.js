@@ -74,9 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 projectCard.innerHTML = `
                     <div class="aspect-video">
                         ${mediaContent}
-                        <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity duration-300 project-overlay">
-                        ${window.iconsData?.[project.iconKey] || ''}
-                        </div>
                     </div>
                     <div class="p-5">
                         <p class="text-sm ${project.categoryColor} font-medium">${project.category}</p>
