@@ -4,44 +4,119 @@
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
         "description": "AURUM Styles teaser animation showcasing design aesthetic.",
-        "imageUrl": "./img/aurum.gif",
+        "mediaUrl": "https://drive.google.com/file/d/1d7kZOIlCUfMiTrWlUXTfU4OUw9z4T4nC/preview",
+        "mediaType": "video",
         "iconKey": "play",
         "projectUrl": "https://drive.google.com/file/d/1d7kZOIlCUfMiTrWlUXTfU4OUw9z4T4nC/view?usp=drive_link"
+    },
+    {
+        "title": "System: AI Patrol with chase state",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "AI patrol system with chase state, created in Unreal Engine, demonstrating AI behavior and pathfinding.",
+        "mediaUrl": "https://drive.google.com/file/d/1WCPtzgyGh_8OyAEM85MRDbWiMcsdNORO/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1WCPtzgyGh_8OyAEM85MRDbWiMcsdNORO/view?usp=drive_link"
+    },
+    {
+        "title": "System: Pickup System with Physics",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Pickup system with physics interactions, created in Unreal Engine, demonstrating object manipulation.",
+        "mediaUrl": "https://drive.google.com/file/d/1dJf2g1VTepTU_9cOnB9awOx2njvDSYV-/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1dJf2g1VTepTU_9cOnB9awOx2njvDSYV-/view?usp=drive_link"
+    },
+    {
+        "title": "Project: Game Mechanics with Level Design",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Game mechanics prototype showcasing level design principles, created in Unreal Engine.",
+        "mediaUrl": "https://drive.google.com/file/d/11yPQxu57qAvNHFN9yhrlKGS3o4eNRyX5/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/11yPQxu57qAvNHFN9yhrlKGS3o4eNRyX5/view?usp=drive_link"
+    },
+    {
+        "title": "Animation: Maclaren 720S",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "Maclaren 720S animation featuring dynamic camera movements to highlight various parts of the vehicle.",
+        "mediaUrl": "https://drive.google.com/file/d/1MQJ4q5Fc8Kn1iB4n_DeKmOkylnTCRpbV/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://www.instagram.com/p/DMcMCT_Iycp/?utm_source=ig_web_copy_link&igsh=MXhuaHUxenN0amFzMQ=="
     },
     {
         "title": "Project: 'Locus Blaster'",
         "category": "Game Dev",
         "categoryColor": "text-indigo-400",
         "description": "Spaceship game prototype created in Unreal Engine, showcasing basic mechanics and level design.",
-        "imageUrl": "./img/locus-blaster.gif",
+        "mediaUrl": "https://drive.google.com/file/d/1Bmovt7CJzmn2RoJzFpdOF1fMfCXom4I2/preview",
+        "mediaType": "video",
         "iconKey": "play",
-        "projectUrl": "https://drive.google.com/file/d/1Bmovt7CJzmn2RoJzFpdOF1fMfCXom4I2/view?usp=drive_link"
+        "projectUrl": "https://drive.google.com/file/d/1Bmovt7CJzmn2RoJzFpdOF1fMfCXom4I2/view?usp=sharing"
     },
     {
         "title": "Project: 'Flappy Bird Clone'",
         "category": "Game Dev",
         "categoryColor": "text-indigo-400",
         "description": "Flappy Bird clone built with Unreal engine, featuring custom graphics and sound effects.",
-        "imageUrl": "./img/flappy-bird.gif",
+        "mediaUrl": "https://drive.google.com/file/d/1Bl4lcIoJEfw9YgSVL45x9MnPsYX2cG2h/preview",
+        "mediaType": "video",
         "iconKey": "play",
         "projectUrl": "https://www.instagram.com/p/DHRFwpKMKCM/"
+    },
+    {
+        "title": "3D Model: Living Room Interior",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "Photorealistic living room interior render created in Blender, featuring realistic lighting, materials, and modern furniture arrangement.",
+        "mediaUrl": "./img/living_room.png",
+        "mediaType": "image",
+        "iconKey": "cube",
+        "projectUrl": "https://www.instagram.com/p/DL4U1QGIjkc/?utm_source=ig_web_copy_link&igsh=M2JzeGlkbmE0ZHBp"
+    },
+    {
+        "title": "3D Model: Kitchen Interior",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "Kitchen interior model created in Blender, showcasing advanced texturing and lighting techniques.",
+        "mediaUrl": "./img/kitchen_interior.png",
+        "mediaType": "image",
+        "iconKey": "cube",
+        "projectUrl": "https://www.instagram.com/p/DMAAsKdojGJ/?utm_source=ig_web_copy_link&igsh=OTlwMzRxeHlzc3hq"
+    },
+    {
+        "title": "3D Model: 'Cute Robot'",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "Cute robot model created in Blender, showcasing advanced texturing and lighting techniques.",
+        "mediaUrl": "./img/robot.png",
+        "mediaType": "image",
+        "iconKey": "cube",
+        "projectUrl": "https://www.instagram.com/p/DLlWJTZo9h0/?utm_source=ig_web_copy_link&igsh=MWhtZHV5cGRsemlmMw=="
     },
     {
         "title": "3D Model: 'Headphones'",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
         "description": "Headphones model created in Blender, showcasing advanced texturing and lighting techniques.",
-        "imageUrl": "./img/headphone.png",
+        "mediaUrl": "./img/headphone.png",
+        "mediaType": "image",
         "iconKey": "cube",
-        "projectUrl": "https://drive.google.com/file/d/1mBj4-wLPeQP-ST8dB7r6cU1skRroFhPc/view?usp=drive_link"
+        "projectUrl": "https://www.instagram.com/p/DMKMHmhoFHg/?utm_source=ig_web_copy_link&igsh=NXVpaWMxMGZvZGpx"
     },
     {
         "title": "3D Model: 'Watch'",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
         "description": "Watch model created in Blender, showcasing advanced texturing and lighting techniques.",
-        "imageUrl": "./img/watch.png",
+        "mediaUrl": "./img/watch.png",
+        "mediaType": "image",
         "iconKey": "cube",
-        "projectUrl": "https://drive.google.com/file/d/1BkSqG_tHTVODzrIBUNH0s_MpUSx6hdAy/view?usp=drive_link"
+        "projectUrl": "https://www.instagram.com/p/DMSpPFSo-76/?utm_source=ig_web_copy_link&igsh=MTJuamlqdGp3MXRnYw=="
     }
 ]
