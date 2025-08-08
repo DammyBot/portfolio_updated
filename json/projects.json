@@ -1,5 +1,15 @@
 [
     {
+        "title": "Project: Project 'Swordsman'",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Souls-like combat system in Unreal Engine with dynamic AI and responsive controls.",
+        "mediaUrl": "https://drive.google.com/file/d/1x083swXf79AHlBmdXHctPiXnP8SiYoVk/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1x083swXf79AHlBmdXHctPiXnP8SiYoVk/view?usp=drive_link"
+    },
+    {
         "title": "Animation: AURUM Styles Teaser",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
