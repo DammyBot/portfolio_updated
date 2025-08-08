@@ -10,7 +10,17 @@
         "projectUrl": "https://drive.google.com/file/d/1x083swXf79AHlBmdXHctPiXnP8SiYoVk/view?usp=drive_link"
     },
     {
-        "title": "Animation: AURUM Styles Teaser",
+        "title": "Animation: AURUM Styles Teaser v1.0.0",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "AURUM Styles teaser featuring dynamic clothing animation.",
+        "mediaUrl": "https://drive.google.com/file/d/1EXoPQW1db4chUyLF4grm5ulXVtBBI-_f/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1EXoPQW1db4chUyLF4grm5ulXVtBBI-_f/view?usp=drive_link"
+    },
+    {
+        "title": "Animation: AURUM Styles Teaser v0.0.1",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
         "description": "AURUM Styles teaser animation showcasing design aesthetic.",
