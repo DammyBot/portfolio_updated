@@ -10,6 +10,16 @@
         "projectUrl": "https://drive.google.com/file/d/1x083swXf79AHlBmdXHctPiXnP8SiYoVk/view?usp=drive_link"
     },
     {
+        "title": "Project: Project 'Mobile Endless Runner'",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Endless runner game prototype showcasing mobile controls and level design.",
+        "mediaUrl": "https://drive.google.com/file/d/101k8DXsIvBCPkWH9TknrV-MJI12vqj7I/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/101k8DXsIvBCPkWH9TknrV-MJI12vqj7I/view?usp=drive_link"
+    },
+    {
         "title": "Animation: AURUM Styles Teaser v1.0.0",
         "category": "3D & Animation",
         "categoryColor": "text-pink-400",
