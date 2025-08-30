@@ -1,5 +1,15 @@
 [
     {
+        "title": "Project: Project 'Swordsman' v0.0.3",
+        "category": "Game Dev",
+        "categoryColor": "text-indigo-400",
+        "description": "Combat system with live animation retargeting, Niagara VFX, advanced AI behavior, and immersive camera.",
+        "mediaUrl": "https://drive.google.com/file/d/1zym1IDQocpeMxHicquS1j-nEsykZ-IP8/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1zym1IDQocpeMxHicquS1j-nEsykZ-IP8/view?usp=drive_link"
+    },
+    {
         "title": "Project: Project 'Swordsman'",
         "category": "Game Dev",
         "categoryColor": "text-indigo-400",
