@@ -1,5 +1,15 @@
 [
     {
+        "title": "Animation: D&B launch animation",
+        "category": "3D & Animation",
+        "categoryColor": "text-pink-400",
+        "description": "D&B launch animation made in unreal engine 5",
+        "mediaUrl": "https://drive.google.com/file/d/1gBinbyoCIiZHCvH15l0x_0QDMy5saOWy/preview",
+        "mediaType": "video",
+        "iconKey": "play",
+        "projectUrl": "https://drive.google.com/file/d/1gBinbyoCIiZHCvH15l0x_0QDMy5saOWy/view?usp=drive_link"
+    },
+    {
         "title": "Project: Project 'Swordsman' v0.0.3",
         "category": "Game Dev",
         "categoryColor": "text-indigo-400",
